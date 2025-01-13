@@ -7,14 +7,16 @@ Quadruped robots excel in navigating challenging terrains where wheeled robots s
 
 ### Key Features
 
-Multi-output classification for detecting contact states of all four legs simultaneously.
-Incorporation of torque sensor data to improve accuracy and robustness.
-Evaluation of model performance with confusion matrices, accuracy scores, and classification reports.
+- Multi-output classification for detecting contact states of all four legs simultaneously.
+- Incorporation of torque sensor data to improve accuracy and robustness.
+- Evaluation of model performance with confusion matrices, accuracy scores, and classification reports.
 ## How It Works
 
-### 1. Data Collection: The dataset includes joint angle, torque, and multiple other sensor readings, along with labeled contact states (0 = no contact, 1 = in contact) for each leg.
+### 1. Data Collection: 
+The dataset includes joint angle, torque, and multiple other sensor readings, along with labeled contact states (0 = no contact, 1 = in contact) for each leg.
 
-### 2. Model: A Random Forest Classifier is wrapped in a multi-output framework to predict the contact states of all four legs simultaneously. This approach offers high accuracy, interpretability, and robustness to noise.
+### 2. Model: 
+A Random Forest Classifier is wrapped in a multi-output framework to predict the contact states of all four legs simultaneously. This approach offers high accuracy, interpretability, and robustness to noise.
 
 ## Results
 The model demonstrates:
