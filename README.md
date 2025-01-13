@@ -1,4 +1,4 @@
-Leg-Phase Detection for Quadruped Robots
+#Leg-Phase Detection for Quadruped Robots
 This project focuses on detecting the contact phases of quadruped robot legs (ground contact vs. swing phase) using machine learning techniques. The goal is to improve the locomotion and stability of quadruped robots.
 
 Overview
