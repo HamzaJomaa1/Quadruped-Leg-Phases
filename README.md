@@ -21,8 +21,8 @@ A Random Forest Classifier is wrapped in a multi-output framework to predict the
 ## Results
 The model demonstrates:
 
-High accuracy: Consistently above 90% for all legs.
-Robust predictions: Minimal misclassifications, as seen in the confusion matrices.
-Real-time capability: Lightweight and efficient, suitable for live robotic control.
+- High accuracy: Consistently above 90% for all legs.
+- Robust predictions: Minimal misclassifications, as seen in the confusion matrices.
+- Real-time capability: Lightweight and efficient, suitable for live robotic control.
 
 
